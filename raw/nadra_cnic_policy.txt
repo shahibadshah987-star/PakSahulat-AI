@@ -1,0 +1,32 @@
+NADRA CITIZEN IDENTITY & CNIC REFERENCE GUIDE (PAKISTAN)
+Note: For exact live fee slabs, category-specific tracking rules, and official forms, always verify at a NADRA Registration Center (NRC), the Pak-ID mobile app, or https://id.nadra.gov.pk.
+
+1. LOST OR STOLEN CNIC / SMART CNIC (DUPLICATE ISSUANCE)
+- Immediate First Steps:
+  * Immediately report the lost or stolen card so it can be cancelled in the system to prevent misuse, and start a duplicate CNIC application via the Pak-ID app or a NADRA Registration Center (NRC).
+  * If theft or suspected misuse of the CNIC is involved, file a police report / online complaint or affidavit/undertaking as required by the local police/NRC process.
+- Required Documents & Verification:
+  * Previous CNIC number or photocopy (if available) and biometric verification (fingerprints/iris/photograph).
+  * Family/parent/blood-relative verification where required by NADRA verification rules.
+  * Applicable duplicate CNIC fee (Normal, Urgent, or Executive processing categories).
+- Using FRC or Token Slip Temporarily:
+  * A Family Registration Certificate (FRC) shows family composition/relationships from NADRA records, while a NADRA application receipt/token shows an active application in progress; neither fully replaces a valid physical CNIC for every bank or telecom transaction—check the specific institution's policy.
+
+2. NEW CNIC & SMART NIC (SNIC) FOR CITIZENS (AGE 18+)
+- Eligibility & Basic Requirements:
+  * Pakistani citizens aged 18 years or older can apply for a first-time CNIC or Smart National Identity Card (SNIC).
+  * Typically requires a valid Child Registration Certificate (CRC / B-Form) or birth record, parents' CNIC details, and in-person biometric capture and photograph at an NRC.
+- Processing Tracks:
+  * Citizens can generally choose between Normal, Urgent, and Executive tracks depending on urgency and applicable fee tiers.
+
+3. CNIC RENEWAL, EXPIRY & MODIFICATION (NAME, ADDRESS, MARITAL STATUS)
+- Renewal:
+  * Renew an expired or expiring CNIC through an NRC or eligible online/Pak-ID channels using biometric verification and applicable renewal fees.
+- Modifications:
+  * Changes such as updating marital status, permanent/present address, or certain demographic details require supporting documentation and biometric verification at an NRC or supported portal.
+
+4. CHILD REGISTRATION CERTIFICATE (CRC / B-FORM) & FAMILY REGISTRATION CERTIFICATE (FRC)
+- CRC (B-Form):
+  * Registers children under 18 in NADRA's database and requires parents' CNIC details and birth registration details.
+- FRC:
+  * Issued in categories such as By Birth, By Marriage, or By Adoption, listing family members recorded under the applicant's CNIC/record.

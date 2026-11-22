@@ -1,0 +1,42 @@
+[
+  {
+    "Test Case": "TC-01 (PECA Comparison)",
+    "Routing": "PASS",
+    "Retrieval": "PASS",
+    "Faithfulness": "5/5",
+    "Relevancy": "5/5",
+    "Citations": "YES"
+  },
+  {
+    "Test Case": "TC-02 (NADRA FRC)",
+    "Routing": "PASS",
+    "Retrieval": "PASS",
+    "Faithfulness": "5/5",
+    "Relevancy": "5/5",
+    "Citations": "YES"
+  },
+  {
+    "Test Case": "TC-03 (HEC Attestation)",
+    "Routing": "PASS",
+    "Retrieval": "PASS",
+    "Faithfulness": "5/5",
+    "Relevancy": "5/5",
+    "Citations": "YES"
+  },
+  {
+    "Test Case": "TC-04 (Bilingual Roman Urdu)",
+    "Routing": "PASS",
+    "Retrieval": "PASS",
+    "Faithfulness": "5/5",
+    "Relevancy": "5/5",
+    "Citations": "YES"
+  },
+  {
+    "Test Case": "TC-05 (Out-of-Scope Guardrail)",
+    "Routing": "PASS",
+    "Retrieval": "PASS",
+    "Faithfulness": "1/5",
+    "Relevancy": "1/5",
+    "Citations": "YES"
+  }
+]
