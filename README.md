@@ -1,8 +1,6 @@
 # PakSahulat AI (Sarkari Kaam Asaan)
 
-**PakSahulat AI** is a bilingual, multi-agent Retrieval-Augmented Generation (RAG) citizen assistant built to simplify Pakistani public service procedures across **NADRA**, **HEC**, and **PECA (2016 & 2025)**. Powered by **LangGraph**, **ChromaDB**, **Google Gemini**, **SQLite**, and **Streamlit**, it delivers grounded, citation-backed answers in **English**, **Urdu script**, and **Roman Urdu** while preventing hallucinations through a self-correcting **Writer-Critic** reflection loop.
-
----
+**PakSahulat AI** is a bilingual, multi-agent Retrieval-Augmented Generation (RAG) citizen assistant built to simplify Pakistani public service procedures across **NADRA**, **HEC**, and **PECA (2016 & 2025)**. Powered by **LangGraph**, **ChromaDB**, **Google Gemini**, **SQLite**, and **Streamlit**, it delivers grounded, citation-backed answers in **English**, **Urdu script**, and **Roman Urdu** through a **Writer-Critic** reflection loop.
 
 ## Multi-Agent Architecture
 
