@@ -37,3 +37,49 @@ Evaluated across 5 end-to-end test scenarios covering temporal comparison (`PECA
 * **5/5 In-Scope Faithfulness & Grounded Citations**: Every in-scope response achieved maximum faithfulness and relevancy backed by `[Document Title, p.X]` citations and Critic verification.
 * **Resilient Multi-Model Fallback Chain**: Automatically fails over across multiple Gemini Flash / Flash-Lite quota pools (`with_fallbacks`) to prevent live rate-limit interruptions.
 * **Strict Out-of-Scope Guardrails**: Queries outside NADRA, HEC, and PECA are intercepted by the Router and politely declined in the user's exact script without hallucination.
+
+---
+
+## 🚀 Setup & Run
+
+**1. Clone the project**
+```bash
+git clone https://github.com/shahibadshah987-star/PakSahulat-AI.git
+cd PakSahulat-AI
+```
+
+**2. Create and activate a virtual environment**
+```bash
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+source .venv/bin/activate     # macOS / Linux
+```
+
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Add your Gemini API key**
+
+Create a file named `.env` in the project's main folder with this one line, replacing the placeholder with your own key from [Google AI Studio](https://aistudio.google.com/apikey):
+```
+GEMINI_API_KEY=your_key_here
+```
+
+**5. Build the vector database** (run from the project's main folder)
+```bash
+python src/build_vector_db.py
+```
+This reads the policy documents in `data/raw/` and creates the `chroma_db/` folder. Running it again rebuilds the database from scratch.
+
+**6. Launch the app**
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔮 Future Work
+
+* **FIA complaint guidance** as its own category, with dedicated source documents, Router support and evaluation tests.
