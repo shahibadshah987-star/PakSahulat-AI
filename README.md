@@ -9,11 +9,11 @@
 ```mermaid
 flowchart TD
     U["Citizen Query: English / Urdu / Roman Urdu"] --> R["Node 1: Router and Query Rewriter"]
-    R -->|"Category + Version + Standalone Query"| RET["Node 2: Metadata-Filtered ChromaDB Retriever"]
+    R -->|"Category, Version, Query"| RET["Node 2: Metadata-Filtered ChromaDB Retriever"]
     RET -->|"Top-K Grounded Chunks"| W["Node 3: Memory-Aware Writer Agent"]
     W -->|"Cited Draft Answer"| C["Node 4: Critic Fact-Checker Agent"]
-    C -->|"Unsupported or Missing Citations, Revisions below 2"| W
-    C -->|"APPROVED or Max Revisions Reached"| M["Node 5: SQLite Short and Long-Term Memory"]
+    C -->|"Needs revision, under 2 passes"| W
+    C -->|"APPROVED or Max Passes"| M["Node 5: SQLite Short and Long-Term Memory"]
     M --> OUT["Streamlit Civic UI + Multi-Agent Trace"]
 ```
 
