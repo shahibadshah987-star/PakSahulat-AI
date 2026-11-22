@@ -8,14 +8,13 @@
 
 ```mermaid
 flowchart TD
-    U[Citizen Query: English / Urdu / Roman Urdu] --> R[Node 1: Router & Query Rewriter]
-    R -->|Category + Version + Standalone Query| RET[Node 2: Metadata-Filtered ChromaDB Retriever]
-    RET -->|Top-K Grounded Chunks| W[Node 3: Memory-Aware Writer Agent]
-    W -->|Cited Draft Answer| C[Node 4: Critic Fact-Checker Agent]
-    C -->|Unsupported / Missing Citations & Revisions < 2| W
-    C -->|APPROVED or Max Revisions Reached| M[Node 5: SQLite Short & Long-Term Memory]
-    M --> OUT[Streamlit Civic UI + Multi-Agent Trace]
-
+    U["Citizen Query (EN / UR / Roman UR)"] --> R["Node 1: Router & Rewriter"]
+    R -->|"Category, Version, Query"| RET["Node 2: Filtered ChromaDB Retriever"]
+    RET -->|"Top-K Chunks"| W["Node 3: Writer Agent"]
+    W -->|"Draft Answer"| C["Node 4: Critic Fact-Checker"]
+    C -->|"Needs Revision and Under 2 Passes"| W
+    C -->|"APPROVED or Max Passes"| M["Node 5: SQLite Memory"]
+    M --> OUT["Streamlit UI + Agent Trace"]
 
 
     ## 📊 Automated Evaluation Results (`data/eval_report.json`)
