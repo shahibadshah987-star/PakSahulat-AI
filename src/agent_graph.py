@@ -173,7 +173,9 @@ RECENT CHAT (Short-Term Memory):
 OFFICIAL EXCERPTS:
 {context_text}
 
-USER QUESTION: {state['question']}"""
+USER QUESTION: {state['question']}
+
+FINAL RULE: Reply in the exact language and script of the USER QUESTION above (English -> English, Urdu script -> Urdu script, Roman Urdu -> Roman Urdu). Ignore the language of RECENT CHAT and OFFICIAL EXCERPTS."""
     res = ask_llm(prompt)
     print("[Writer] Draft generated.")
     return {"draft_answer": res, "revisions": state.get("revisions", 0) + 1}
