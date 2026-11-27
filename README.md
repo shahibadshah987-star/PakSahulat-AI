@@ -5,6 +5,11 @@
 ---
 
 ## 🏗️ Multi-Agent Architecture
+## 🖥️ Live Demo
+
+![PakSahulat AI answering an English question about HEC degree attestation](screenshots/Screenshot 2026-11-27 153452.jpg)
+
+---
 
 ```mermaid
 flowchart TD
