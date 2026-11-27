@@ -4,13 +4,13 @@
 
 ---
 
-## 🏗️ Multi-Agent Architecture
 ## 🖥️ Live Demo
 
-![PakSahulat AI answering an English question about HEC degree attestation](screenshots/Screenshot 2026-11-27 153452.jpg)
+![PakSahulat AI answering an English question about HEC degree attestation](screenshots/Screenshot%202026-11-27%20153452.jpg)
 
 ---
 
+## 🏗️ Multi-Agent Architecture
 ```mermaid
 flowchart TD
     U["Citizen Query: English / Urdu / Roman Urdu"] --> R["Node 1: Router and Query Rewriter"]
