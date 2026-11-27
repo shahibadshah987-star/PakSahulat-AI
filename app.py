@@ -169,8 +169,11 @@ st.markdown(
 # --- Sidebar: User Identity, Session & Persistent Memory Inspector ---
 with st.sidebar:
     st.header("🧠 Agent Memory & Session")
-    user_id = st.text_input("Citizen User ID (Long-Term Memory)", value="demo_citizen_01")
-    session_id = st.text_input("Session ID (Short-Term Memory)", value="session_01")
+    import uuid
+    if "visitor_id" not in st.session_state:
+        st.session_state.visitor_id = uuid.uuid4().hex[:8]
+    user_id = st.text_input("Citizen User ID (Long-Term Memory)", value="citizen_" + st.session_state.visitor_id)
+    session_id = st.text_input("Session ID (Short-Term Memory)", value="session_" + st.session_state.visitor_id)
 
     if st.button("🧹 Clear Session Chat"):
         st.session_state.messages = []
